@@ -47,19 +47,3 @@ class BinarySearchTree:
                 else:
                     self._left.add(key, datum)
         
-test = BinarySearchTree(3, 'Poop')
-test.add(2, 'Pee')
-test.add(7, 'Boobs')
-test.add(4, 'Butts')
-if test.search(4):
-    print('Key 4 Found')
-else:
-    print('Key 4 Not Found')
-if test.search(5):
-    print('Key 5 Found')
-else:
-    print('Key 5 Not Found')
-if test.search(7):
-    print('Key 7 Found')
-else:
-    print('Key 7 Not Found')
